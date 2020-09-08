@@ -5,5 +5,6 @@ from boxed.boxed import BoxEd
 
 
 class TestBoxEd:
-    with BoxEd() as boxed:
-        pass
+    def test_dummy():
+        with BoxEd() as boxed:
+            pass
